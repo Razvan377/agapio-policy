@@ -1,0 +1,378 @@
+<title>Agapio Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper-deep: #ECE5D7;
+    --paper: #F4EFE6;
+    --paper-raised: #FBF8F1;
+    --hairline: #E2D9C8;
+    --hairline-dim: #D8CDB8;
+    --ink: #21201C;
+    --body-ink: #3D3A30;
+    --taupe: #6B6353;
+    --stone: #A39885;
+    --oxblood: #9A3B2E;
+    --oxblood-deep: #7A2E23;
+    --gold: #C9A24B;
+    --gold-light: #E9C97F;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper-deep: #15130F;
+      --paper: #1C1913;
+      --paper-raised: #242019;
+      --hairline: #332C21;
+      --hairline-dim: #3D3527;
+      --ink: #F2EAD9;
+      --body-ink: #D8CEB8;
+      --taupe: #B3A585;
+      --stone: #8A7F68;
+      --oxblood: #D0604A;
+      --oxblood-deep: #B24B36;
+      --gold: #D9B764;
+      --gold-light: #EAD08A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper-deep: #15130F;
+    --paper: #1C1913;
+    --paper-raised: #242019;
+    --hairline: #332C21;
+    --hairline-dim: #3D3527;
+    --ink: #F2EAD9;
+    --body-ink: #D8CEB8;
+    --taupe: #B3A585;
+    --stone: #8A7F68;
+    --oxblood: #D0604A;
+    --oxblood-deep: #B24B36;
+    --gold: #D9B764;
+    --gold-light: #EAD08A;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper-deep);
+    color: var(--body-ink);
+    font-family: "Newsreader", Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .masthead {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .fleuron {
+    font-size: 32px;
+    line-height: 1;
+    color: var(--gold);
+    margin: 0 0 6px;
+  }
+
+  .wordmark {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: -0.3px;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .eyebrow {
+    font-family: "Space Mono", "Courier New", monospace;
+    font-size: 10.5px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-top: 10px;
+  }
+
+  .rule {
+    height: 1px;
+    width: 34px;
+    background: var(--gold);
+    margin: 22px auto 0;
+  }
+
+  .sheet {
+    background: var(--paper-raised);
+    border: 1px solid var(--hairline);
+    border-radius: 4px;
+    padding: 44px clamp(24px, 6vw, 56px) 52px;
+    box-shadow: 0 1px 2px rgba(20, 16, 8, 0.04);
+  }
+
+  .intro {
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--taupe);
+    margin: 0 0 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  section {
+    margin-bottom: 34px;
+  }
+  section:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .section-num {
+    display: block;
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  h2 {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: -0.2px;
+    color: var(--ink);
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+
+  h3 {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 16.5px;
+    color: var(--ink);
+    margin: 20px 0 6px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.72;
+    margin: 0 0 14px;
+    max-width: 62ch;
+  }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+  li {
+    font-size: 16px;
+    line-height: 1.68;
+    margin-bottom: 8px;
+    max-width: 58ch;
+  }
+  li:last-child { margin-bottom: 0; }
+
+  strong { color: var(--ink); font-weight: 500; }
+
+  a {
+    color: var(--oxblood);
+    text-decoration-color: var(--gold);
+    text-underline-offset: 3px;
+  }
+  a:hover { color: var(--oxblood-deep); }
+  a:focus-visible {
+    outline: 2px solid var(--oxblood);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    margin: 4px 0 14px;
+    border: 1px solid var(--hairline);
+    border-radius: 3px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 480px;
+    font-size: 14.5px;
+    font-family: "Space Mono", monospace;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--hairline);
+    line-height: 1.5;
+    vertical-align: top;
+  }
+  thead th {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--stone);
+    background: var(--paper);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td { color: var(--body-ink); }
+  td.role { color: var(--ink); white-space: nowrap; }
+
+  .placeholder {
+    background: var(--gold-light);
+    color: var(--oxblood-deep);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-family: "Space Mono", monospace;
+    font-size: 0.85em;
+  }
+
+  .contact {
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px solid var(--hairline);
+    font-size: 15px;
+    color: var(--taupe);
+  }
+
+  .footer-note {
+    text-align: center;
+    margin-top: 28px;
+    font-family: "Space Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--stone);
+  }
+</style>
+
+<div class="page">
+  <div class="masthead">
+    <p class="fleuron">❦</p>
+    <p class="wordmark">Agapio</p>
+    <p class="eyebrow">Privacy Policy · Effective September 18, 2026</p>
+    <div class="rule"></div>
+  </div>
+
+  <div class="sheet">
+    <p class="intro">
+      Agapio is a reading app. This page explains, plainly, what we collect, why, and what we
+      don't do with it. If a sentence here doesn't answer your question, the contact section
+      at the bottom will.
+    </p>
+
+    <section>
+      <span class="section-num">01</span>
+      <h2>What we collect</h2>
+      <p>
+        Agapio works fully without an account — browsing, reading, and keeping stories all work
+        offline, on your device, with nothing sent to us. The table below covers what's
+        collected once you use a feature that needs it.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Data</th><th>When</th><th>Why</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="role">Email address</td>
+              <td>Only if you create an account (email, Google, or Apple sign-in)</td>
+              <td>To identify your account and let you sign in again</td>
+            </tr>
+            <tr>
+              <td class="role">Reading activity</td>
+              <td>Only if signed in</td>
+              <td>Categories you've chosen, stories you've kept or passed, and your reading
+                streak — synced so your progress follows you across devices</td>
+            </tr>
+            <tr>
+              <td class="role">Usage analytics</td>
+              <td>Always, anonymously unless signed in</td>
+              <td>A count of which stories are opened and which categories they belong to, so
+                we know what's actually being read. Not linked to you unless you're signed in,
+                and even then it's a one-way log we use for aggregate counts — not something
+                we build a profile from</td>
+            </tr>
+            <tr>
+              <td class="role">Subscription status</td>
+              <td>Only if you subscribe</td>
+              <td>Apple and RevenueCat handle the purchase and tell us whether it's active —
+                we never see your card details or Apple ID</td>
+            </tr>
+            <tr>
+              <td class="role">Display preferences</td>
+              <td>Always, on-device only</td>
+              <td>Theme (light/dark) and reading style — stored only on your device, never
+                sent to us at all</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <span class="section-num">02</span>
+      <h2>What we don't do</h2>
+      <ul>
+        <li>No ads, and no ad network embedded in the app.</li>
+        <li>No selling or renting your data to anyone, for any reason.</li>
+        <li>No tracking you across other apps or websites.</li>
+        <li>No location data collected.</li>
+      </ul>
+    </section>
+
+    <section>
+      <span class="section-num">03</span>
+      <h2>Who else touches your data</h2>
+      <p>We use a small number of specialist services to run Agapio. Each only sees what it needs to do its one job:</p>
+      <ul>
+        <li><strong>Supabase</strong> — stores account and reading-progress data, and handles sign-in. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Their privacy policy</a>.</li>
+        <li><strong>Apple</strong> — Sign in with Apple, and all App Store purchases. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Their privacy policy</a>.</li>
+        <li><strong>Google</strong> — only if you choose to sign in with Google. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Their privacy policy</a>.</li>
+        <li><strong>RevenueCat</strong> — verifies subscription status with Apple on our behalf. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Their privacy policy</a>.</li>
+      </ul>
+    </section>
+
+    <section>
+      <span class="section-num">04</span>
+      <h2>How long we keep it, and deleting your account</h2>
+      <p>
+        Signed-in account data is kept for as long as your account exists. You can delete your
+        account at any time from Agapio's You tab, under Account — this permanently removes your
+        account and everything synced to it. Anything that only ever lived on your device is
+        entirely in your control; uninstalling the app removes it.
+      </p>
+    </section>
+
+    <section>
+      <span class="section-num">05</span>
+      <h2>Children's privacy</h2>
+      <p>
+        Agapio isn't directed at children, and we don't knowingly collect data from anyone under
+        13. If you believe a child has created an account, contact us and we'll remove it.
+      </p>
+    </section>
+
+    <section>
+      <span class="section-num">06</span>
+      <h2>Changes to this policy</h2>
+      <p>
+        If this policy changes in a meaningful way, we'll update the effective date above. We
+        won't quietly widen what we collect without saying so here first.
+      </p>
+    </section>
+
+    <div class="contact">
+      Questions about this policy or your data — write to
+      <a href="mailto:rey.rey.agapi@gmail.com">rey.rey.agapi@gmail.com</a>.
+    </div>
+  </div>
+
+  <p class="footer-note">Agapio · Knowledge worth keeping</p>
+</div>
